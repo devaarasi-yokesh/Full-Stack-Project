@@ -84,42 +84,7 @@ const handleAddProduct = async () => {
       </VStack>
       </Container> 
       <Button onClick={onOpen}>ok</Button>
-      <Modal isOpen={open} onClose={onClose} w="300px" m={8} >
-                <ModalOverlay w="30%"  borderColor={"gray.200"} />
-      
-                <ModalContent w="30%"  bg={useColorModeValue("gray.200","gray.500")}  borderColor={"gray.200"}>
-                  <ModalHeader>Update Product</ModalHeader>
-                  <ModalCloseButton />
-                  <ModalBody>
-                    <VStack spacing={4}>
-                        <Input 
-                                    placeholder='Product Name'
-                                    name='name'
-                                    />
-                        
-                                    <Input
-                                     placeholder='Price'
-                                     price='price'
-                                     type='number'
-                                    />
-      
-                                    <Input
-                                     placeholder='Image URL'
-                                     image ='image'
-                                    />
-                    </VStack>
-                  </ModalBody>
-      
-                  <ModalFooter>
-                    <Button colorScheme='blue' mr={3}>
-                      Update
-                    </Button>
-                    <Button variant='ghost' onClick={onClose}>
-                      Cancel
-                    </Button>
-                  </ModalFooter>
-                </ModalContent>
-              </Modal>
+     
     </div>
   )
 }
