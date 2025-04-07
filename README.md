@@ -1,4 +1,5 @@
-** First Full-Stack Project **
+**First Full-Stack Project**
+
 Overview:
 - Project-Type: Practice Project
 - Tutorial Source: FREE Coding Bootcamp - Build 4 Full Stack Projects in 23 Hours
